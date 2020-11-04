@@ -1,0 +1,184 @@
+.main-login{
+    /*height: 400px;/*370*/
+}
+.row{
+	background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+img{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.Form{
+    position:relative;
+    top:50px;
+    margin: auto;
+    
+}
+#login-top{
+    position: relative;
+    margin: 2% 2% 2% 2%;
+    font-weight: bold;
+    left: 60%;
+    color: gray;
+}
+#login-top:hover{
+    text-decoration: none;
+    color:#0099cc;
+}
+#login-top:focus{
+    color: #0099cc;
+}
+#signup-top{
+    position: relative;
+    margin: 2% 2% 2% 2%;
+    font-weight: bold;
+    left: 60%;
+    color: gray;
+}
+#signup-top:hover{
+    text-decoration: none;
+    color:#0099cc;
+}
+#signup-top:focus{
+    color: #0099cc;
+}
+#top-text{
+    color:#175785;
+    font-weight: bold;
+    margin: 3% 5% 3% 5%;
+    position: relative;
+    text-align: center;
+
+}
+.login-sub-box{
+    width: 65%;
+    padding: 0%;
+    margin: auto;
+}
+#signin-heading{
+    position: relative;
+    left:0;
+    padding: 0;
+    font-weight: normal;
+    color: gray;
+    
+
+}
+#heading-text{
+    position: relative;
+    left: 0;
+    color: grey;
+}
+input.form-control{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    left: 0%;
+    position: relative;
+
+}
+.form-row{
+    margin: 0%;
+    padding: 0%;
+}
+#email{
+    position: relative;
+    
+    width: 100%; /*******/
+    margin: 0%;
+    padding: 0;
+    left: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#password{
+    position: relative;
+    width: 100%;/******/
+    margin: 0%;
+    padding: 0;
+    left: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+input{
+    border-width: 0;
+    border-bottom-width: 1.5px ;
+    border-color: skyblue;
+}
+#forgot-password{
+    position: relative;
+    color: gray;
+    font-size: 0.8em;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.signinbtn{
+    background-color:#175785;
+    border-radius: 3px;
+    border-width: 0;
+    color: white;
+    margin: auto;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.btnsign{
+    position: relative;
+    width: 100%;
+}
+.num-container{
+    background-color:rgb(23,87,133,0.4);
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    height: 30px;
+    margin-top:8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#phone-num{
+    position: relative;
+    width: 84%;
+    height: 30px;
+    margin: 0;
+    border-width: 0px;
+    float: right;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+
+}
+#phone-num:focus{
+    outline: none;
+}
+#link-button{
+    font-size: 0.75em;
+    margin: 0px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5% ;
+    height: 30px;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: rgb(23,87,133,0.4);
+    font-weight: bold;
+    margin-top: 8%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-bottom: 5%;
+    
+}
+#link-button:focus{
+    outline: none;
+    background-color: rgb(23,87,133,0.4);
+}
+
+
+img{
+    height: 400px;
+}
+
