@@ -1,13 +1,16 @@
 .main-login{
-      
+    
 }
 .row{
 	background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
- 
+    
 }
-
+img{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
 .Form{
     position:relative;
     top:50px;
@@ -42,16 +45,14 @@
 #signup-top:focus{
     color: #0099cc;
 }
-/***********************/
 #top-text{
     color:#175785;
     font-weight: bold;
-    margin: 5% 5% 5% 5%;
+    margin: 3% 5% 3% 5%;
     position: relative;
     text-align: center;
 
 }
-
 .login-sub-box{
     width: 65%;
     padding: 0%;
@@ -63,9 +64,9 @@
     padding: 0;
     font-weight: normal;
     color: gray;
-    margin: 2% 0 2% 0;
-}
+    
 
+}
 #heading-text{
     position: relative;
     left: 0;
@@ -92,7 +93,16 @@ input.form-control{
     margin-top: 2%;
     margin-bottom: 2%;
 }
-#password{
+#enter-password{
+    position: relative;
+    width: 100%;/******/
+    margin: 0%;
+    padding: 0;
+    left: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#confirm-password{
     position: relative;
     width: 100%;/******/
     margin: 0%;
@@ -106,14 +116,7 @@ input{
     border-bottom-width: 1.5px ;
     border-color: skyblue;
 }
-#forgot-password{
-    position: relative;
-    color: gray;
-    font-size: 0.8em;
-    float: right;
-    margin-top: 0;
-    margin-bottom: 2%;
-}
+
 
 .signinbtn{
     background-color:#175785;
@@ -122,62 +125,17 @@ input{
     color: white;
     margin: auto;
     width: 100%;
-    margin-top: 2%;
-    margin-bottom: 4%;
+    margin-top: 7%;
+    margin-bottom: 7%;
 
 }
 .btnsign{
     position: relative;
     width: 100%;
 }
-.num-container{
-    background-color:rgb(23,87,133,0.4);
-    width: 90%;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
-    height: 30px;
-    margin-top:8%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-#phone-num{
-    position: relative;
-    width: 80%;
-    height: 30px;
-    margin: 0;
-    border-width: 0px;
-    float: right;
-    border-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
 
-}
-#phone-num:focus{
-    outline: none;
-}
-#link-button{
-    font-size: 0.75em;
-    margin: 0px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right:5% ;
-    height: 30px;
-    border-width: 0px;
-    border-radius: 10px;
-    background-color: rgb(23,87,133,0.4);
-    font-weight: bold;
-    margin-top: 8%;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
-    margin-bottom: 5%;
-    
-}
-#link-button:focus{
-    outline: none;
-    background-color: rgb(23,87,133,0.4);
-}
 
 img{
-	border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
     height: 430px;
 }
+
